@@ -34,7 +34,7 @@ const NavbarTOP = () => {
             <Nav className="me-auto leftSide">
               <NavDropdown title="English" id="basic-nav-dropdown">
                 <NavDropdown.Item href="#action/3.1">Azerbaijan</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">English</NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.2">Russian</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.3">Turkish</NavDropdown.Item>
               </NavDropdown>
               <NavDropdown title="Country" id="basic-nav-dropdown">
