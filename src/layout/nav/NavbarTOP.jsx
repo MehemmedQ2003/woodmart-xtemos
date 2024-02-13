@@ -33,7 +33,7 @@ const NavbarTOP = () => {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto leftSide">
               <NavDropdown title="English" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1">Deutsch</NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.1">Azerbaijan</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.2">French</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.3">Turkish</NavDropdown.Item>
               </NavDropdown>
