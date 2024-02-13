@@ -1,0 +1,26 @@
+$theme-colors: (
+  'info': tomato,
+  'danger': teal
+);
+
+
+@import "~slick-carousel/slick/slick.css"; 
+@import "~slick-carousel/slick/slick-theme.css";
+
+/* import bootstrap to set changes */
+@import '~bootstrap/scss/bootstrap';
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul{
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+}

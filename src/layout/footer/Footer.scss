@@ -1,0 +1,66 @@
+.footer{
+    margin: 40px 0;
+    .containerFooter{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 20px;
+            .contactFooter{
+                margin: 20px 0;
+                img{
+                    width: 200px;
+                    margin: 20px 0;
+                }
+                .contact{
+                    .location, .phone, .message{
+                        display: flex;
+                        align-items: center;
+                        gap: 10px;
+                        margin: 10px 0;
+                    }
+                }
+            }
+            .postFooter{
+                margin: 20px 0;
+                .decorSubject{
+                    display: flex;
+                    align-items: center;
+                    gap: 20px;
+                    .Subject{
+                        .date{
+                            color: #c8c8c8;
+                            font-size: 15px;
+                        }
+                    }
+                }
+            }
+            .storiesFooter, .linksFooter, .menuFooter {
+                margin: 20px 0;
+                text-align: center;
+                a{
+                    color: #b4b4b4;
+                    font-weight: bolder;
+                    display: block;
+                    margin: 10px 0;
+                    &:hover{
+                        color: black;
+                        transition: 0.6s;
+                    }
+                }
+            }
+        }
+    }
+    .cards{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        p{
+            font-size: 12px;
+            a{
+                font-weight: bolder;
+                color: black;
+            }
+        }
+    }

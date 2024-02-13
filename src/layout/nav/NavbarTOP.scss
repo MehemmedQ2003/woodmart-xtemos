@@ -1,0 +1,74 @@
+.Navbar{
+    background-color:  rgba(121, 179, 138, 1);
+    font-weight: 400;
+    position: sticky;
+    z-index: 1;
+    top: 0;
+    width: 100%;
+    .rightSide{
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        align-items: center;
+        .icons{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+    }
+}
+
+.headerContainer{
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .handle{
+        display: none;
+        .menuIcon{
+            width: 20px;
+        }
+    }
+    .left{
+        align-items: center;
+        justify-content: space-between;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 40px;
+        .call{
+            flex-wrap: wrap;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .callIcon{
+                font-size:"30px";
+                color: rgba(121, 179, 138, 1);
+            }
+        }
+    }
+    img{
+        width: 300px;
+    }
+    .right{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        justify-content: space-between;
+        .icons{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            justify-content: space-between;
+        }
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .headerContainer{
+        .left, .right{
+            display: none;
+            justify-content: center;
+        }
+    }
+}

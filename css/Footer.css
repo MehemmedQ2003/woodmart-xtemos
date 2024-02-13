@@ -1,0 +1,63 @@
+.footer {
+  margin: 40px 0;
+}
+.footer .containerFooter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+.footer .containerFooter .contactFooter {
+  margin: 20px 0;
+}
+.footer .containerFooter .contactFooter img {
+  width: 200px;
+  margin: 20px 0;
+}
+.footer .containerFooter .contactFooter .contact .location, .footer .containerFooter .contactFooter .contact .phone, .footer .containerFooter .contactFooter .contact .message {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0;
+}
+.footer .containerFooter .postFooter {
+  margin: 20px 0;
+}
+.footer .containerFooter .postFooter .decorSubject {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.footer .containerFooter .postFooter .decorSubject .Subject .date {
+  color: #c8c8c8;
+  font-size: 15px;
+}
+.footer .containerFooter .storiesFooter, .footer .containerFooter .linksFooter, .footer .containerFooter .menuFooter {
+  margin: 20px 0;
+  text-align: center;
+}
+.footer .containerFooter .storiesFooter a, .footer .containerFooter .linksFooter a, .footer .containerFooter .menuFooter a {
+  color: #b4b4b4;
+  font-weight: bolder;
+  display: block;
+  margin: 10px 0;
+}
+.footer .containerFooter .storiesFooter a:hover, .footer .containerFooter .linksFooter a:hover, .footer .containerFooter .menuFooter a:hover {
+  color: black;
+  transition: 0.6s;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.cards p {
+  font-size: 12px;
+}
+.cards p a {
+  font-weight: bolder;
+  color: black;
+}/*# sourceMappingURL=Footer.css.map */

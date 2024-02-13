@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400");
+.sectionHeader {
+  margin-bottom: 50px;
+}
+.sectionHeader .wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  list-style: none;
+  font-weight: 700;
+  margin: 15px auto;
+  gap: 30px;
+}
+.sectionHeader .wrapper a {
+  color: inherit;
+  text-decoration: underline 0.15em rgba(0, 0, 0, 0);
+  transition: text-decoration-color 300ms;
+}
+.sectionHeader .wrapper a:hover {
+  text-decoration-color: rgb(0, 0, 0);
+}/*# sourceMappingURL=SectionHeader.css.map */

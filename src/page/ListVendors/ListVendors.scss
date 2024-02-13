@@ -1,0 +1,223 @@
+.sectionListOfVendors{
+    .title{
+        background-color: #f9f9f9;
+        padding: 15px 20px;
+        text-align: center;
+        .vendorLink{
+            color: black;
+            font-size: 14px;
+            font-weight: 600;
+        }
+    }
+
+    .listContainer{
+        border: 1px solid #d7d7d7;
+        background-color: #fff;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        box-shadow: 1px 1px 20px 0 #9E9E9E;
+        .listRow{
+        padding: 20px;  
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            .leftSide{
+                b{
+                    text-align: center;
+                    color: #9e9e9e;
+                    margin: 10px 0;
+                }
+            }
+            .rightSide{
+                display: flex;
+                align-items: center;
+                flex-wrap: wrap;
+                gap: 30px;
+                justify-content: space-around;
+                .acordion{
+                    margin: 10px 0;
+                    width: 60%;
+                    .filterIcon, .filterP{
+                        color: rgba(121, 179, 138, 1);
+                        margin: 0 10px;
+                        font-size: 20px;
+                    }
+                    .accordionApply{
+                        text-align: right;
+                        margin: 20px 0;
+                        .apply{
+                            border-radius: 5px;
+                            padding: 10px 20px;
+                            color: white;
+                            border: 1px solid rgba(121, 179, 138, 1);
+                            background-color: rgba(121, 179, 138, 1);
+                            &:hover{
+                                transition: 0.7s;
+                                color: rgba(121, 179, 138, 1);
+                                background-color: white;
+                            }
+                        }
+                    }
+                }
+                .sort{
+                    margin: 10px 0;
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    justify-content: space-between;
+                }
+                .icons{
+                        display: flex;
+                        align-items: center;
+                        gap: 10px;
+                    .filtersIcon{
+                        font-size: 30px;
+                         color: rgba(121, 179, 138, 1);
+                    }
+                }
+            }
+        }
+    }
+
+    .itemContainer{
+        .card{  
+            margin: 20px 0;
+            border-radius: 0;
+            border: 1px solid #f9f9f9;
+            box-shadow: 0px 0px 25px 0px #ddd;
+            .Card1{
+                background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("https://woodmartcdn-cec2.kxcdn.com/handmade/wp-content/uploads/sites/3/2021/04/cropped-5-1.jpg.webp");
+                }
+
+            .Card2{
+                background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("https://woodmartcdn-cec2.kxcdn.com/handmade/wp-content/uploads/sites/3/2017/06/4-2.jpg.webp");
+                }
+
+            .Card3{
+                background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("https://woodmartcdn-cec2.kxcdn.com/handmade/wp-content/uploads/sites/3/2017/06/2.jpg.webp");
+                }
+
+            .Card4{
+                background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("https://woodmartcdn-cec2.kxcdn.com/handmade/wp-content/uploads/sites/3/2017/06/3.jpg.webp");
+                }
+
+            .Card5{
+                background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("https://woodmartcdn-cec2.kxcdn.com/handmade/wp-content/uploads/sites/3/2017/06/6.jpg.webp");
+                }
+
+            .Card6{
+                background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url('https://woodmartcdn-cec2.kxcdn.com/handmade/wp-content/uploads/sites/3/2017/06/vendor-bg-1.jpg.webp');
+                }
+
+            .cardAbout{
+                
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                z-index: 0;
+                position: relative;
+                padding: 20px;
+                .cardTitle{
+                    .cardName{
+                        font-size: 30px;
+                        color: white;
+                        cursor: pointer;
+                    }
+                    .cardIcons{
+                        margin-bottom: 10px;
+                        font-size: 25px;
+                        display: flex;
+                        align-items: center;
+                        color: #fa9a00;
+                    }
+                    .cardAddress, .cardTel{
+                        display: flex;
+                        align-items: center;
+                        gap: 5px;
+                        font-weight: 500;
+                        font-size: 18px;
+                        color: white;
+                    }
+                }
+                .cardImg{
+                    position: absolute;
+                    right: 20%;
+                    bottom: -10%;
+                    transform: translate(50%);
+                    .linkImg{
+                        .img{
+                            width: 100px;
+                            height: 100px;
+                            border: 10px solid white;
+                            border-radius: 50%;
+                        }
+                    }
+                }
+            }
+
+            .cardBody{
+                padding: 25px;
+                .bodyIcons{
+                    border-radius: 5px;
+                    background-color: rgba(121, 179, 138, 1);
+                    padding: 10px;
+                    color: white;
+                    border: 1px solid rgba(121, 179, 138, 1);
+                    &:hover{
+                        background-color: white;
+                        color: rgba(121, 179, 138, 1);
+                        transition: 0.6s;
+                    }
+                }
+            }
+        }
+    }
+        
+    .blogSIGNUP {
+        margin-top: 100px;
+        background-image: url("https://c0.wallpaperflare.com/preview/295/332/969/flowers-flat-lay-flower-flatlay.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 300px;
+        position: relative;
+        .containerSign {
+            position: absolute;
+            text-align: center;
+            top: 20%;
+            left: 50%;
+            transform: translate(-50%);
+            .woodmartCol {
+                h5 {
+                    color: rgba(121, 179, 138, 1);
+                }
+                p{
+                    font-size: 28px;
+                    p {
+                      color: rgba(121, 179, 138, 1);
+                    }
+                }
+            }
+            .inputCol {
+                input {
+                    width: 50%;
+                    padding: 10px;
+                    border: 1px solid #bbbbbb;
+                    margin: 0 10px;
+                }
+                button {
+                    color: white;
+                    background-color: rgba(121, 179, 138, 1);
+                    padding: 10px 25px;
+                    border: 1px solid rgba(121, 179, 138, 1);
+                    &:hover {
+                        transition: 0.6s;
+                        background-color: white;
+                        color: rgba(121, 179, 138, 1);
+                    }
+                }
+            }
+        }  
+  }
+}

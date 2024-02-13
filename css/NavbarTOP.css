@@ -1,0 +1,72 @@
+.Navbar {
+  background-color: rgb(121, 179, 138);
+  font-weight: 400;
+  position: sticky;
+  z-index: 1;
+  top: 0;
+  width: 100%;
+}
+.Navbar .rightSide {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: center;
+}
+.Navbar .rightSide .icons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.headerContainer {
+  margin: 20px auto;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.headerContainer .handle {
+  display: none;
+}
+.headerContainer .handle .menuIcon {
+  width: 20px;
+}
+.headerContainer .left {
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.headerContainer .left .call {
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.headerContainer .left .call .callIcon {
+  font-size: "30px";
+  color: rgb(121, 179, 138);
+}
+.headerContainer img {
+  width: 300px;
+}
+.headerContainer .right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: space-between;
+}
+.headerContainer .right .icons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1000px) {
+  .headerContainer .left, .headerContainer .right {
+    display: none;
+    justify-content: center;
+  }
+}/*# sourceMappingURL=NavbarTOP.css.map */

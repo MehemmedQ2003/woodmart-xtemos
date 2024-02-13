@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Noto+Sans&display=swap");
+
+* {
+  font-family: "Merriweather", serif;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.sectionVendor {
+  .productRow {
+    .productLinks {
+      .productLink {
+        display: block;
+        color: #777;
+        margin: 20px 0;
+        &:hover {
+          opacity: 0.6;
+        }
+      }
+    }
+    .location {
+      margin: 20px 0;
+    }
+    .contact {
+      .productBtn {
+        margin: 20px 0;
+        background-color: rgba(121, 179, 138, 1);
+        border: 1px solid rgba(121, 179, 138, 1);
+        color: white;
+        padding: 10px 20px;
+        font-weight: 500;
+        &:hover {
+          color: rgba(121, 179, 138, 1);
+          background-color: white;
+          transition: 0.6s;
+        }
+      }
+    }
+    .shopProducts {
+      margin-bottom: 50px;
+      .products {
+        display: flex;
+        gap: 20px;
+        img {
+          width: 30%;
+        }
+        .imageContent {
+          .Producticons {
+            margin-top: -5px;
+            margin-bottom: 10px;
+          }
+          b {
+            color: rgba(121, 179, 138, 1);
+          }
+        }
+      }
+    }
+
+    .Products {
+      .sortProduct {
+        .enterProduct {
+          display: flex;
+          gap: 5px;
+          .mb-3 {
+            width: 100%;
+            font-size: 15px;
+            color: #777;
+          }
+          .productButton {
+            border: 1px solid rgba(121, 179, 138, 1);
+            background-color: rgba(121, 179, 138, 1);
+            text-transform: uppercase;
+            color: white;
+            padding: 17px 20px;
+            border-radius: 5px;
+            height: 59px;
+            &:hover {
+              background-color: white;
+              color: rgba(121, 179, 138, 1);
+              transition: 0.6s;
+            }
+          }
+        }
+        .select {
+          height: 59px;
+          border: 1px solid rgba(0, 0, 0, 0.1);
+          font-size: 15px;
+          color: #777;
+        }
+
+        .slickSlider {
+          margin: 40px 0;
+          .slick-arrow {
+            background-color: rgb(121, 179, 138);
+          }
+          .sliders {
+            .slider {
+              padding: 10px;
+              .intoSlider {
+                .imgScreen {
+                  position: relative;
+                  .overlay {
+                    display: none;
+                    position: absolute;
+                    bottom: 5%;
+                    right: 50%;
+                    transform: translate(50%);
+                    width: auto;
+                    height: auto;
+                    .overlayIcons {
+                      display: flex;
+                      justify-content: center;
+                      align-items: center;
+                      gap: 20px;
+                      background-color: white;
+                      padding: 5px 30px;
+                      .icons {
+                        font-size: 22px;
+                        align-self: center;
+                        color: black;
+                      }
+                    }
+                  }
+                  img {
+                    width: 100%;
+                  }
+                  &:hover .overlay {
+                    display: block;
+                  }
+                }
+                .productPrice {
+                  text-align: center;
+                  margin: 10px 0;
+                  a {
+                    text-decoration: none;
+                    color: black;
+                    opacity: 0.7;
+                  }
+                  .price {
+                    color: rgba(121, 179, 138, 1);
+                    font-weight: bolder;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .blogSIGNUP {
+    margin-top: 100px;
+    background-image: url("https://c0.wallpaperflare.com/preview/295/332/969/flowers-flat-lay-flower-flatlay.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    position: relative;
+    .containerSign {
+      position: absolute;
+      text-align: center;
+      top: 20%;
+      left: 50%;
+      transform: translate(-50%);
+      .woodmartCol {
+        h5 {
+          color: rgba(121, 179, 138, 1);
+        }
+        p {
+          font-size: 28px;
+          p {
+            color: rgba(121, 179, 138, 1);
+          }
+        }
+      }
+      .inputCol {
+        input {
+          width: 50%;
+          padding: 10px;
+          border: 1px solid #bbbbbb;
+          margin: 0 10px;
+        }
+        button {
+          color: white;
+          background-color: rgba(121, 179, 138, 1);
+          padding: 10px 25px;
+          border: 1px solid rgba(121, 179, 138, 1);
+          &:hover {
+            transition: 0.6s;
+            background-color: white;
+            color: rgba(121, 179, 138, 1);
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .slickSlider {
+    .sliders {
+      flex-wrap: wrap;
+      .productPrice {
+        font-size: 25px;
+      }
+    }
+  }
+  .enterProduct {
+    flex-wrap: wrap;
+    .productButton {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+}

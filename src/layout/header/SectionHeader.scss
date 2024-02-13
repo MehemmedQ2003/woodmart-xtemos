@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400");
+
+.sectionHeader {
+  margin-bottom: 50px;
+  .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    list-style: none;
+    font-weight: 700;
+    margin: 15px auto;
+    gap: 30px;
+    a {
+      color: inherit;
+      text-decoration: underline 0.15em rgba(0, 0, 0, 0);
+      transition: text-decoration-color 300ms;
+
+      &:hover {
+        text-decoration-color: rgba(0, 0, 0, 1);
+      }
+    } 
+  }
+
+}
