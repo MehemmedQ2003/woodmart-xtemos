@@ -11,6 +11,8 @@ import { RiStarSFill, RiShoppingCartLine } from "react-icons/ri";
 import { CiSearch, CiHeart } from "react-icons/ci";
 import { DiGitCompare } from "react-icons/di";
 
+
+
 const Vendor = () => {
   return (
     <div className="sectionVendor">
